@@ -27,5 +27,6 @@ export default {
 }
 body {
   margin: 0px;
+  background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
 }
 </style>

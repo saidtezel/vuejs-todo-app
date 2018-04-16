@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import VueLocalForage from 'vue-localforage'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(VueLocalForage)
 
 /* eslint-disable no-new */
 new Vue({
